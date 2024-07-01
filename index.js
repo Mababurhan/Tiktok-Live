@@ -26,8 +26,8 @@ bot.on("ready", () => {
 
 bot.connect();
 
-let tiktokers = process.env['TIKTOKERS']; // tiktokers written in array exam : ['michajourney', 'michajalan']
-let channels = process.env['CHANNELS']; // discord channels written in array exam : ['0012....', '1201....']
+let tiktokers = process.env['sk.shexam01']; // tiktokers written in array exam : ['michajourney', 'michajalan']
+let channels = process.env['1209179378643116124']; // discord channels written in array exam : ['0012....', '1201....']
 
 tiktokers.forEach((tiktoker) => {
   let tiktokerLive = new WebcastPushConnection(tiktoker);
