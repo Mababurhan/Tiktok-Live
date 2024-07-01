@@ -7,7 +7,7 @@ const fs = require('fs');
 const { DateTime } = require('luxon');
 
 const bot = new Eris(
-  process.env['TOKEN'] 
+  process.env['MTI1NzMxMjM4NzU2NDk2NjA3MA.GGTd3A.MtS0_biQFDMatJfnepehazfIMdvA2EeClXnVjc'] 
 );
 
 const uri = process.env['MONGODB'];
